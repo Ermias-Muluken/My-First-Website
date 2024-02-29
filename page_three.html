@@ -1,95 +1,198 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+    <link rel="stylesheet" href="page_three.css" />
     <meta charset="UTF-8" />
     <title>Favorite Players</title>
   </head>
   <body>
+    <h1>My Favorite Players</h1>
+
+    <div class="players">
+      <div class="player" id="bobby">
+        <p class="players-name">Bobby Fisher</p>
+        <a href="https://en.wikipedia.org/wiki/Bobby_Fischer" target="_blank">
+          <img
+            class="players-image"
+            src="images/page_three/bobby.jpg"
+            alt="this is an image of a famous chess player-'Bobby Fisher'"
+          />
+        </a>
+      </div>
+      <div class="player" id="garry">
+        <p class="players-name">Garry Kasparov</p>
+        <a href="https://en.wikipedia.org/wiki/Garry_Kasparov" target="_blank">
+          <img
+            class="players-image"
+            src="images/page_three/garry.png"
+            alt="this is an image of a famous chess player-'Garry Kasparov'"
+          />
+        </a>
+      </div>
+      <div class="player" id="magnus">
+        <p class="players-name display-p">Magnus Carlsen</p>
+        <a href="https://en.wikipedia.org/wiki/Magnus_Carlsen" target="_blank">
+          <img
+            class="players-image display-image"
+            src="images/page_three/magnus.jpg"
+            alt="this is an image of a famous chess player-'Magnus Carlsen'"
+          />
+        </a>
+      </div>
+      <div class="player" id="hikaru">
+        <p class="players-name">Hikaru Nakamura</p>
+        <a href="https://en.wikipedia.org/wiki/Hikaru_Nakamura" target="_blank">
+          <img
+            class="players-image"
+            src="images/page_three/hikaru.jpg"
+            alt="this is an image of a famous chess player-'Hikaru Nakamura'"
+          />
+        </a>
+      </div>
+      <div class="player" id="vishy">
+        <p class="players-name">Vishy Anand</p>
+        <a
+          href="https://en.wikipedia.org/wiki/Viswanathan_Anand"
+          target="_blank"
+        >
+          <img
+            class="players-image"
+            src="images/page_three/vishy.jpg"
+            alt="this is an image of a famous chess player-'Vishy Anand'"
+          />
+        </a>
+      </div>
+      <div class="player" id="alpha">
+        <p class="players-name">AlphaZero</p>
+        <a href="https://en.wikipedia.org/wiki/AlphaZero" target="_blank">
+          <img
+            class="players-image"
+            src="images/page_three/alphazero.jpg"
+            alt="this is a description of famous AI chess program -'Alpha Zero'"
+          />
+        </a>
+      </div>
+    </div>
+    <div class="arrows">
+      <img
+        id="left-arrow"
+        src="images/page_three/arrow.png"
+        alt="this is an image of arrow pointing to left"
+      />
+      <img
+        id="right-arrow"
+        src="images/page_three/arrow.png"
+        alt="this is an image of arrow pointing to right"
+      />
+    </div>
+    <div class="contents">
+      <div class="content">
+        <p class="text">
+          You may notice that the last image is not a person. Yes it is not a
+          person, it is an AI chess program and is one of my favorite player. I
+          like how the AI Is developed without human chess knowledge i.e. It
+          learns chess by playing its self and making its neural network better
+          every time. It came up with some new astonishing ideas that humans did
+          not even bother to think about it.
+        </p>
+        <img
+          src="images/page_three/ai.png"
+          alt="this an image of an ai program that play chess"
+        />
+      </div>
+      <div class="content">
+        <div class="text">
+          <p>
+            Here are some games played by each players that are my favorite
+            among their games:
+          </p>
+          <ul>
+            <li>
+              Bobby Fisher:
+              <a
+                href="https://www.youtube.com/watch?v=QHydkEARVKE"
+                target="_blank"
+                >https://www.youtube.com/watch?v=QHydkEARVKE</a
+              >
+            </li>
+            <li>
+              Gary Kasparov:
+              <a
+                href="https://www.youtube.com/watch?v=_FNhqKtDtLw&t=378s"
+                target="_blank"
+                >https://www.youtube.com/watch?v=_FNhqKtDtLw&t=378s</a
+              >
+            </li>
+            <li>
+              Magnus Carlsen:
+              <a
+                href="https://www.youtube.com/watch?v=HcqRau2S6Nk"
+                target="_blank"
+                >https://www.youtube.com/watch?v=HcqRau2S6Nk</a
+              >
+            </li>
+            <li>
+              Hikaru Nakamora:
+              <a
+                href="https://www.youtube.com/watch?v=89C9GDGYJ4I"
+                target="_blank"
+                >https://www.youtube.com/watch?v=89C9GDGYJ4I</a
+              >
+            </li>
+            <li>
+              Vishy Anand:
+              <a
+                href="https://www.youtube.com/watch?v=aY3QCKzrHAk"
+                target="_blank"
+                >https://www.youtube.com/watch?v=aY3QCKzrHAk</a
+              >
+            </li>
+            <li>
+              Alpha Zero:
+              <a
+                href="https://www.youtube.com/watch?v=lFXJWPhDsSY"
+                target="_blank"
+                >https://www.youtube.com/watch?v=lFXJWPhDsSY</a
+              >
+            </li>
+          </ul>
+        </div>
+        <img
+          src="images/page_three/carlsen-jorden.png"
+          alt="this is an image people playing chess in tournament"
+        />
+      </div>
+    </div>
     <div class="nav-bar">
       <div class="chess-logo">
-        <img src="" alt="this is an icon of chess pieces" />
+        <img src="images/nav-bar/knight.png" alt="this is an icon of chess pieces" />
         <p>Chess</p>
       </div>
       <div class="nav-menu">
-        <p>Home</p>
-        <p>My Experience</p>
-        <p>Favorite Player</p>
-        <p>About Chess</p>
+        <p><a href="home.html">Home</a></p>
+        <p><a href="page_two.html">My Experience</a></p>
+        <p><a href="page_three.html">Favorite Players</a></p>
+        <p><a href="about.html">About Chess</a></p>
       </div>
     </div>
-    <h1>My Favorite Players</h1>
-    <div class="players">
-      <div id="bobby">
-        <p>Bobby Fisher</p>
-        <a href="" target="_blank">
-        <img
-          src=""
-          alt="this is an image of a famous chess player-'Bobby Fisher'"
-        />
-        </a>
-      </div>
-      <div id="gary">
-        <p>Gary Kasparov</p>
-        <a href="" target="_blank">
-        <img
-          src=""
-          alt="this is an image of a famous chess player-'Gary Kasparov'"
-        />
-        </a>
-      </div>
-      <div id="magnus">
-        <p>Magnus Carlsen</p>
-        <a href="" target="_blank">
-        <img
-          src=""
-          alt="this is an image of a famous chess player-'Magnus Carlsen'"
-        />
-        </a>
-      </div>
-      <div id="hikaru">
-        <p>Hikaru Nakamura</p>
-        <a href="" target="_blank">
-        <img
-          href=""
-          alt="this is an image of a famous chess player-'Hikaru Nakamura'"
-        />
-        </a>
-      </div>
-      <div id="vishy">
-        <p>Vishy Anand</p>
-        <a href="" target="_blank">
-        <img
-          src=""
-          alt="this is an image of a famous chess player-'Vishy Anand'"
-        />
-        </a>
-      </div>
-      <div id="alpha">
-        <p>Alpha Zero</p>
-        <a href="" target="_blank">
-        <img
-          src=""
-          alt="this is a description of famous AI chess program -'Alpha Zero'"
-        />
-        </a>
-      </div>
-    </div>
-    <p>
-      You may notice that the last image is not a person. Yes it is not a
-      person, it is an AI chess program and is one of my favorite player. I like
-      how the AI Is developed without human chess knowledge i.e. It learns chess
-      by playing its self and making its neural network better every time. It
-      came up with some new astonishing ideas that humans did not even bother to
-      think about it.
-    </p>
-    <p>Here are some games played by each players that are my favorite among their games: </p>
-    <ul>
-        <li>Bobby Fisher: <a></a></li>
-        <li>Gary Kasparov: <a></a></li>
-        <li>Magnus Carlsen: <a></a></li>
-        <li>Hikaru Nakamora: <a></a></li>
-        <li>Vishy Anand: <a></a></li>
-        <li>Alpha Zero: <a></a></li>
-    </ul>
+    <script type="text/javascript" src="page_three.js"></script>
   </body>
+  <footer>
+    <div class="contact">
+      <p>Contact</p>
+      <div class="address">
+        <img class="foot-icon" src="images/footer/call.png" />
+        <p>+251987390882</p>
+      </div>
+      <div class="address">
+        <img class="foot-icon" src="images/footer/email.png" />
+        <p>ermiasmuluken321@gmail.com</p>
+      </div>
+      <div class="address">
+        <img class="foot-icon" src="images/footer/telegram.png" />
+        <p>@Fan_of_Hanguk</p>
+      </div>
+    </div>
+    <p>@Ermias Muluken's First Website</p>
+  </footer>
 </html>

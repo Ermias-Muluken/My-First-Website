@@ -1,0 +1,117 @@
+html,body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffffff;
+}
+a{
+    color: magenta;
+    text-decoration: none;
+}
+.nav-bar{
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: #ffffff;
+    font-size: larger;
+    border-bottom: 2px solid #000;
+    position: fixed;
+    top: 0;
+}
+.chess-logo{
+    color: #000;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 2em;
+    align-items: center;
+}
+.chess-logo img{
+    margin: 0;
+    padding: 0;
+    width: 64px;
+    height: 64px;
+    margin-right: 1rem;
+}
+.nav-menu{
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-menu a{
+    color: #000;
+    font-weight: bold;
+    font-size: 25px;
+}
+.nav-menu p:nth-of-type(4){
+    border-bottom: 3px solid #000;
+}
+h1{
+    color: #000;
+    text-align: center;
+    margin: 200px auto 100px;
+}
+h2{
+    color: #000;
+    text-align: center;
+    margin: 50px auto;
+}
+.pieces{
+    margin: 0 10px;
+    color: #000;
+}
+.pieces h3{
+    text-align: center;
+}
+.piece{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+.text{
+    width: 40%;
+}
+.piece img{
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 0 10px 10px darkgray;
+}
+
+.concept-rule{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.concept-rule p{
+    width: 40%;
+    display: inline-block;
+}
+footer{
+    color: #ffffff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.9);
+    font-size: larger;
+}
+footer p{
+    margin: 10px;
+}
+.foot-icon{
+    width: 45px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.address{
+    margin: 5px;
+    display: flex;
+}

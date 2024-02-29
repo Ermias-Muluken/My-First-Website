@@ -2,60 +2,78 @@
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="page_two.css" />
     <title>My Experience</title>
   </head>
   <body>
-    <div class="nav-bar">
-      <div class="chess-logo">
-        <img src="" alt="this is an icon of chess pieces" />
-        <p>Chess</p>
+    <h1>Me and Chess</h1>
+    <div class="contents">
+      <h2>How did I start playing?</h2>
+      <div class="content">
+        <div class="text">
+          <p>
+            I remember playing chess in desktop computers when I was child like
+            in lower grades. But honestly I do not remember how i played or even
+            understood the game back then. So let me jump to the time I
+            consciously started to play chess. It began when I was in High
+            school. In my way to school there is a place that is kind of simple
+            lounge that i pass through everyday and I was always attracted to
+            the gathered people there. They were always there playing chess
+            every single day. And I was curious that what made them to play so
+            seriously but at the same time they chatter so much and laugh a lot.
+          </p>
+          <p>
+            Then I started to just stand and watch them play for some quiet
+            days. One day one of them asked me to come and play with them I told
+            him that i don’t know to play. Then he recommend some online videos
+            to start of from the ground and know some basic things about chess(
+            like movements ,checkmate and some opening). After Completing the
+            recommended videos I asked to play with them. They asked the
+            beginner player among them to play with me. We started to play and
+            he smacked the heck out of me. I remember going home so angry and I
+            couldn’t sleep thinking about the games. After this I watched some
+            additional videos and try to understand the underlying concept of
+            chess. I started playing with chess bots and got better. I returned
+            to place and challenged him again. This time I also won a few games
+            and that boost my confidence and started to play on forward
+          </p>
+        </div>
+        <img
+          src="images/page_two/chess_board.png"
+          alt="this an image of chess set"
+        />
       </div>
-      <div class="nav-menu">
-        <p>Home</p>
-        <p>My Experience</p>
-        <p>Favorite Player</p>
-        <p>About Chess</p>
+      <h2>What about now?</h2>
+      <div class="content">
+        <div class="inner">
+          <p>
+            Well now I am university student and far from my home town where I
+            stared to play chess. Since there is no close place and much free
+            time available to play chess. I switched to play online in sites
+            like Chess.com and Lichess.org. I go in to this platforms as much as
+            time I get to play with players all over the world. It is so cool to
+            play with people that are from all over the world.
+          </p>
+          <a href="https:/chess.com/" target="_blank"
+            ><img
+              src="images/page_two/chess_com.png"
+              alt="this is an image chess.com logo"
+          /></a>
+          <a href="https:/lichess.org/" target="_blank"
+            ><img
+              src="images/page_two/lichess_org.png"
+              alt="this is an image lichess.org logo"
+          /></a>
+        </div>
+        <img
+          src="images/page_two/play_online.png"
+          alt="this an image of chess pieces"
+        />
       </div>
     </div>
-    <h1>Me and Chess</h1>
-    <h2>How did I start playing?</h2>
-    <p>
-      I remember playing chess in desktop computers when I was child like in
-      lower grades. But honestly I do not remember how i played or even
-      understood the game back then. So let me jump to the time I consciously
-      started to play chess. It began when I was in High school. In my way to
-      school there is a place that is kind of simple lounge that i pass through
-      everyday and I was always attracted to the gathered people there. They
-      were always there playing chess every single day. And I was curious that
-      what made them to play so seriously but at the same time they chatter so
-      much and laugh a lot.
-    </p>
-    <p>
-      Then I started to just stand and watch them play for some quiet days. One
-      day one of them asked me to come and play with them I told him that i
-      don’t know to play. Then he recommend some online videos to start of from
-      the ground and know some basic things about chess( like movements
-      ,checkmate and some opening). After Completing the recommended videos I
-      asked to play with them. They asked the beginner player among them to play
-      with me. We started to play and he smacked the heck out of me. I remember
-      going home so angry and I couldn’t sleep thinking about the games. After
-      this I watched some additional videos and try to understand the underlying
-      concept of chess. I started playing with chess bots and got better. I
-      returned to place and challenged him again. This time I also won a few
-      games and that boost my confidence and started to play on forward
-    </p>
-    <h2>What about now?</h2>
-    <p>
-      Well now I am university student and far from my the town where I stared
-      to play chess. Since there is no close place and much free time available
-      to play chess. I switched to play online in sites like Chess.com and
-      Lichess.org. I go in to this platforms as much as time I get to play with
-      players all over the world. It is so cool to play with people that are
-      from all over the world.
-    </p>
     <form action="" method="post">
+      <h2>What about you?</h2>
       <fieldset class="about-you">
-        <legend>What about you?</legend>
         <p>Do you play Chess?</p>
         <label for="play-chess">
           <input
@@ -67,38 +85,86 @@
           Yes
         </label>
       </fieldset>
+      <h2>If yes,</h2>
       <fieldset class="if-yes">
-        <legend>If yes,</legend>
         <p>What is your favorite part of the game?</p>
-        <label for="opening">
-          <input type="radio" id="opening" name="part-of-game" />
-          Opening
-        </label>
-        <label for="middle-game">
-          <input type="radio" id="middle-game" name="part-of-game" />
-          Middle Game
-        </label>
-        <label for="end-game">
-          <input type="radio" id="end-game" name="part-of-game" />
-          End Game
-        </label>
-        <label for="fav-opening-wt">
-          What is your favorite Opening for White?
-          <input type="text" id="fav-opening-wt" placeholder="Queen's Gambit..."/>
-        </label>
-        <label for="fav-opening-bl">
-          What is your favorite Opening for Black?
-          <input type="text" id="fav-opening-bl" placeholder="Sicilian..."/>
-        </label>
-        <label for="like-about-chess">
-          What do you like about Chess?
+        <div class="radio-buts">
+          <label for="opening">
+            <input type="radio" id="opening" name="part-of-game" />
+            Opening
+          </label>
+          <label for="middle-game">
+            <input type="radio" id="middle-game" name="part-of-game" checked />
+            Middle Game
+          </label>
+          <label for="end-game">
+            <input type="radio" id="end-game" name="part-of-game" />
+            End Game
+          </label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <div class="opening">
+          <label for="fav-opening-wt">
+            What is your favorite Opening for White?
+          </label>
+          <input
+            type="text"
+            id="fav-opening-wt"
+            placeholder="Queen's Gambit..."
+          />
+        </div>
+      </fieldset>
+      <fieldset>
+        <div class="opening">
+          <label for="fav-opening-bl">
+            What is your favorite Opening for Black?
+          </label>
+          <input type="text" id="fav-opening-bl" placeholder="Sicilian..." />
+        </div>
+      </fieldset>
+      <fieldset>
+        <div class="comment">
+          <label for="like-about-chess"> What do you like about Chess? </label>
           <textarea
             id="like-about-chess"
             placeholder="I like how focused and..."
+            rows="8"
+            cols="45"
           ></textarea>
-        </label>
+        </div>
       </fieldset>
-      <input type="submit" name="submit" value="submit"/>
+      <input type="button" name="submit" value="Submit" />
     </form>
+    <div class="nav-bar">
+      <div class="chess-logo">
+        <img src="images/nav-bar/knight.png" alt="this is an icon of chess pieces" />
+        <p>Chess</p>
+      </div>
+      <div class="nav-menu">
+        <p><a href="home.html">Home</a></p>
+        <p><a href="page_two.html">My Experience</a></p>
+        <p><a href="page_three.html">Favorite Players</a></p>
+        <p><a href="about.html">About Chess</a></p>
+      </div>
+    </div>
   </body>
+  <footer>
+    <div class="contact">
+      <p>Contact</p>
+      <div class="address">
+        <img class="foot-icon" src="images/footer/call.png" />
+        <p>+251987390882</p>
+      </div>
+      <div class="address">
+        <img class="foot-icon" src="images/footer/email.png" />
+        <p>ermiasmuluken321@gmail.com</p>
+      </div>
+      <div class="address">
+        <img class="foot-icon" src="images/footer/telegram.png" />
+        <p>@Fan_of_Hanguk</p>
+      </div>
+    </div>
+    <p>@Ermias Muluken's First Website</p>
+  </footer>
 </html>

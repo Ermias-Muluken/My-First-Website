@@ -1,135 +1,167 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+    <link rel="stylesheet" href="about.css" />
     <meta charset="UTF-8" />
     <title>About Chess</title>
   </head>
   <body>
-    <div class="nav-bar">
-      <div class="chess-logo">
-        <img src="" alt="this is an icon of chess pieces" />
-        <p>Chess</p>
-      </div>
-      <div class="nav-menu">
-        <p>Home</p>
-        <p>My Experience</p>
-        <p>Favorite Player</p>
-        <p>About Chess</p>
-      </div>
-    </div>
     <h1>Understanding Chess</h1>
     <h2>Chess Pieces</h2>
     <div class="pieces">
-      <div class="pawn">
-        <h3>Pawn</h3>
-        <p>
-          A pawn may move by vertically advancing to a vacant square ahead. The
-          first time a pawn moves, it has the additional option of vertically
-          advancing two squares, provided that both squares are vacant. Unlike
-          other pieces, the pawn can only move forwards. In the below diagram,
-          the pawn on c4 can only move to c5; the pawn on e2 can move to either
-          e3 or e4. When capturing the opponent piece it can move diagonally on
-          step. If the white reaches the top row it can be promoted to any other
-          pieces of the same color except the pawn itself and king. Same for
-          black pawns that reaches the bottom row.
-        </p>
+      <div class="piece pawn">
+        <div class="text">
+          <h3>Pawn</h3>
+          <p>
+            A pawn may move by vertically advancing to a vacant square ahead.
+            The first time a pawn moves, it has the additional option of
+            vertically advancing two squares, provided that both squares are
+            vacant. Unlike other pieces, the pawn can only move forwards. In the
+            diagram, the pawn on e2 can move to either e3 or e4. When capturing
+            the opponent piece it can move diagonally on step.
+          </p>
+        </div>
         <img
-          src=""
+          src="images/about/pawn.jpg"
           alt="this is a chess board having only pawn pieces on their initial positions"
         />
       </div>
-      <div class="Night">
-        <h3>Night</h3>
-        <p>
-          A Night move in a lit bit complicated way compared to the other pieces
-          and that makes it special. It moves in “L” shape i.e. It can move one
-          square vertical then two squares horizontal or two square vertical
-          then one squares horizontal to every direction contained in the board.
-          It can move to any empty space whether there is any piece on the way
-          or not. and to move and capture is the same. I think this feature
-          makes Night so unique and so powerful in some positions. By the way
-          Night is my favorite piece.
-        </p>
+      <div class="piece knight">
+        <div class="text">
+          <h3>Knight</h3>
+          <p>
+            A Knight move in a lit bit complicated way compared to the other
+            pieces and that makes it special. It moves in “L” shape i.e. It can
+            move one square vertical then two squares horizontal or two square
+            vertical then one squares horizontal to every direction contained in
+            the board. It can move to any empty space whether there is any piece
+            on the way or not. and to move and capture is the same. I think this
+            feature makes Knight so unique and so powerful in some positions. By
+            the way Knight is my favorite piece.
+          </p>
+        </div>
         <img
-          src=""
-          alt="this is a chess board having only night pieces on their initial positions"
+          src="images/about/knight.png"
+          alt="this is a chess board having only knight pieces on their initial positions"
         />
       </div>
-      <div class="bishop">
-        <h3>Bishop</h3>
-        <p>
-          A bishop moves diagonally following its position color. i.e. If there
-          is a bishop on black square that means that bishop can only go to
-          black squares following diagonal direction. It can not pass a piece on
-          the way. If the piece on the way is your opponent piece you can
-          capture that piece and settle there.
-        </p>
+      <div class="piece bishop">
+        <div class="text">
+          <h3>Bishop</h3>
+          <p>
+            A bishop moves diagonally following its position color. i.e. If
+            there is a bishop on black square that means that bishop can only go
+            to black squares following diagonal direction. It can not pass a
+            piece on the way. If the piece on the way is your opponent piece you
+            can capture that piece and settle there.
+          </p>
+        </div>
         <img
-          src=""
+          src="images/about/bishop.png"
           alt="this is a chess board having only bishop pieces on their initial positions"
         />
       </div>
-      <div class="rook">
-        <h3>Rook</h3>
-        <p>
-          A rook can move in any straight line direction whether it is
-          horizontal or vertical direction. It moves and captures in same
-          manner. When countering pieces on the way if it is opponent piece it
-          can capture it and settle there or if it the same color piece it can’t
-          pass it so if there is empty squares before the occupied square it can
-          settle there.
-        </p>
+      <div class="piece rook">
+        <div class="text">
+          <h3>Rook</h3>
+          <p>
+            A rook can move in any straight line direction whether it is
+            horizontal or vertical direction. It moves and captures in same
+            manner. When countering pieces on the way if it is opponent piece it
+            can capture it and settle there or if it the same color piece it
+            can’t pass it so if there is empty squares before the occupied
+            square it can settle there.
+          </p>
+        </div>
         <img
-          src=""
+          src="images/about/rook.jpg"
           alt="this is a chess board having only rook pieces on their initial positions"
         />
       </div>
-      <div class="queen">
-        <h3>Queen</h3>
-        <p>
-          A queen can move both diagonally and in any straight line direction,
-          i.e. It can move like a bishop or a rook. The movement rules that
-          apply to the bishop and the rook apply to the queen too. Since the
-          queen can easily move the entire board easily it the second most
-          powerful piece on the board next to the king.
-        </p>
+      <div class="piece queen">
+        <div class="text">
+          <h3>Queen</h3>
+          <p>
+            A queen can move both diagonally and in any straight line direction,
+            i.e. It can move like a bishop or a rook. The movement rules that
+            apply to the bishop and the rook apply to the queen too. Since the
+            queen can easily move the entire board easily it the second most
+            powerful piece on the board next to the king.
+          </p>
+        </div>
         <img
-          src=""
+          src="images/about/queen.jpg"
           alt="this is a chess board having only queen pieces on their initial positions"
         />
       </div>
-      <div class="king">
-        <h3>King</h3>
-        <p>
-          The king is most powerful and most prioritized piece among the chess
-          pieces. It is due to the concept of the chess game is based on which
-          is the “capture” of the king or checkmating the king. So in chess your
-          main aim should be protecting your king and mobilizing your pieces to
-          checkmate the opponent king. The king can move in all directions one
-          square inside the board. and it move and capture in the same manner.
-        </p>
+      <div class="piece king">
+        <div class="text">
+          <h3>King</h3>
+          <p>
+            The king is most powerful and most prioritized piece among the chess
+            pieces. It is due to the concept of the chess game is based on which
+            is the “capture” of the king or checkmating the king. So in chess
+            your main aim should be protecting your king and mobilizing your
+            pieces to checkmate the opponent king. The king can move in all
+            directions one square inside the board. and it move and capture in
+            the same manner.
+          </p>
+        </div>
         <img
-          src=""
+          src="images/about/king.jpg"
           alt="this is a chess board having only king pieces on their initial positions"
         />
       </div>
     </div>
     <h2>Concepts and Rules</h2>
-    <p>
-      The main concept in the chess i think is check and checkmate. Where check
-      means that placing your one of your piece(except the king) to a place
-      where it is possible for the piece that is placed in that position to
-      capture the opponent king. when you put your piece in that position it is
-      called check. And if the opponent can't do anything to not be captured by
-      that piece then it is called checkmate.
-    </p>
-    <p>
-      The Game over rule is simple if you can checkmate your king you have won.
-      If any of the opponent king is not possible to be checkmated in a fair
-      game then it is draw. But there are still some rules that you should know
-      like un'passant or you can't move your king to a square where it is
-      possible for your opponent pieces to go that position. You can checkout
-      all the concepts and rules <a href="">here</a>.
-    </p>
+    <div class="concept-rule">
+      <p>
+        The main concept in the chess i think is check and checkmate. Where
+        check means that placing your one of your piece(except the king) to a
+        place where it is possible for the piece that is placed in that position
+        to capture the opponent king. when you put your piece in that position
+        it is called check. And if the opponent can't do anything to not be
+        captured by that piece then it is called checkmate.
+      </p>
+      <p>
+        The Game over rule is simple if you can checkmate your king you have
+        won. If any of the opponent king is not possible to be checkmated in a
+        fair game then it is draw. But there are still some rules that you
+        should know like un'passant or you can't move your king to a square
+        where it is possible for your opponent pieces to go that position. You
+        can checkout all the concepts and rules
+        <a href="https://en.wikipedia.org/wiki/Chess" target="_blank">here</a>.
+      </p>
+    </div>
+    <div class="nav-bar">
+      <div class="chess-logo">
+        <img src="images/nav-bar/knight.png" alt="this is an icon of chess pieces" />
+        <p>Chess</p>
+      </div>
+      <div class="nav-menu">
+        <p><a href="home.html">Home</a></p>
+        <p><a href="page_two.html">My Experience</a></p>
+        <p><a href="page_three.html">Favorite Players</a></p>
+        <p><a href="about.html">About Chess</a></p>
+      </div>
+    </div>
   </body>
+  <footer>
+    <div class="contact">
+      <p>Contact</p>
+      <div class="address">
+        <img class="foot-icon" src="images/footer/call.png" />
+        <p>+251987390882</p>
+      </div>
+      <div class="address">
+        <img class="foot-icon" src="images/footer/email.png" />
+        <p>ermiasmuluken321@gmail.com</p>
+      </div>
+      <div class="address">
+        <img class="foot-icon" src="images/footer/telegram.png" />
+        <p>@Fan_of_Hanguk</p>
+      </div>
+    </div>
+    <p>@Ermias Muluken's First Website</p>
+  </footer>
 </html>

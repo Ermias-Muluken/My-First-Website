@@ -1,0 +1,170 @@
+html,body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+.nav-bar{
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: #ffffff;
+    font-size: larger;
+    border-bottom: 2px solid #000;
+    position: fixed;
+    top: 0;
+}
+.chess-logo{
+    color: #000;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 2em;
+    align-items: center;
+}
+.chess-logo img{
+    margin: 0;
+    padding: 0;
+    width: 64px;
+    height: 64px;
+    margin-right: 1rem;
+}
+.nav-menu{
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-menu a{
+    color: #000;
+    font-weight: bold;
+    font-size: 25px;
+}
+.nav-menu p:nth-of-type(2){
+    border-bottom: 3px solid #000;
+}
+h1{
+    color: #000;
+    text-align: center;
+    margin: 200px auto 100px;
+}
+
+.contents{
+    margin: 0 10px;
+    color: #000;
+}
+.contents h2{
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+.text{
+    width: 40%;
+}
+.content img{
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 0 10px 10px darkgray;
+}
+.inner{
+    width: 40%;
+}
+.inner img{
+    width: 40%;
+    height: 40%;
+    box-shadow: none;
+}
+form{
+    color: #000;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+
+}
+fieldset *{
+    margin: 10px auto;
+}
+fieldset{
+    margin: 40px auto;
+    width: 50%;
+    border-radius: 1em;
+}
+.about-you{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.if-yes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.opening,.comment{
+    display: grid;
+}
+input[type="text"]{
+    width: 50%;
+    border: none;
+    background-color: antiquewhite;
+}
+textarea{
+    border: none;
+    background-color: antiquewhite;
+    width: 75%;
+    resize: vertical;
+    min-height: 50px;
+    max-height: 300px;
+}
+.radio-buts{
+    width: 60%;
+    display: flex;
+    font-size: large;
+}
+.radio-buts input{
+    margin-left: 10px;
+}
+input[type="button"]{
+    font-size: larger;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    padding: 5px 10px;
+}
+input[type="button"]:hover{
+    background-color: antiquewhite;
+}
+footer{
+    color: #ffffff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.9);
+    font-size: larger;
+}
+footer p{
+    margin: 10px;
+}
+.foot-icon{
+    width: 45px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.address{
+    margin: 5px;
+    display: flex;
+}
