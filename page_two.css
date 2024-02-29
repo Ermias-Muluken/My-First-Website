@@ -126,6 +126,7 @@ textarea{
     border: none;
     background-color: antiquewhite;
     width: 75%;
+    height: 200px;
     resize: vertical;
     min-height: 50px;
     max-height: 300px;
